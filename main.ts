@@ -24,7 +24,7 @@ interface Data {
         provider_url: "https://github.com/Minecodes/sharuto",
         author_name: string,
         author_url: string,
-        type: "photo" | "video",
+        type: "photo" | "video" | "link" | "rich" | string,
         version: "1.0"
     }
 }
