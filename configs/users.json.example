@@ -1,0 +1,25 @@
+{
+    "users": [
+        {
+            "social": {
+                "name": "yourName",
+                "url": "https://yourAddress",
+                "color": "#0099ff",
+                "twitter": {
+                    "site": "YourTwitterTag",
+                    "creator": "YourTwitterTag"
+                }
+            },
+            "oembed": {
+                "provider_name": "Sharuto",
+                "provider_url": "https://github.com/Minecodes/sharuto",
+                "author_name": "Your Name",
+                "author_url": "https://yourAddress",
+                "type": "photo",
+                "version": "1.0"
+            },
+            "description": "Your Description",
+            "token": "yourToken"
+        }
+    ]
+}

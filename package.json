@@ -1,0 +1,37 @@
+{
+  "name": "sharuto",
+  "version": "1.0.0",
+  "description": "An upload / share server with advanced embeded functions for Discord, Twitter, etc. and ShareX compatibility.",
+  "main": "main.js",
+  "repository": "https://github.com/Minecodes/sharuto.git",
+  "author": {
+    "name": "Minecodes",
+    "email": "contact@minecodes.de",
+    "url": "https://minecodes.de"
+  },
+  "scripts": {
+    "build": "swc main.ts -o main.js --config-file .swcrc",
+    "dev": "swc main.ts -o main.js --config-file .swcrc -w",
+    "start": "node main.js"
+  },
+  "license": "BSD-3-Clause",
+  "private": false,
+  "dependencies": {
+    "@inquirer/confirm": "^0.0.19-alpha.0",
+    "@inquirer/input": "^0.0.20-alpha.0",
+    "enquirer": "^2.3.6",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.3.1",
+    "inquirer": "^8.2.4",
+    "ps-logger": "^1.0.6",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.2.188",
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.35",
+    "chokidar": "^3.5.3",
+    "typescript": "^4.6.4"
+  }
+}

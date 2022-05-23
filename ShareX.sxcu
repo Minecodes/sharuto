@@ -1,0 +1,16 @@
+{
+  "Version": "1.0.0",
+  "Name": "Sharuto",
+  "DestinationType": "ImageUploader, FileUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://yourHost/",
+  "Headers": {
+    "Authorization": "Bearer YourToken"
+  },
+  "Body": "MultipartFormData"
+  "FileFormName": "file",
+  "URL": "$json:link$",
+  "ThumbnailURL": "$json:link$",
+  "DeletionURL": "$json:delete$",
+  "ErrorMessage": "$response$"
+}
